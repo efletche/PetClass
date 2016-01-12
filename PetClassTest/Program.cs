@@ -12,7 +12,8 @@ namespace PetClassTest
         {
             List<PetClass> PetList = new List<PetClass>();
 
-            PetList.Add(new PetCat("Mittens"));
+
+            PetList.Add(new PetCat("Mittens","Cream"));
             PetList.Add(new CoolCat("Garfield"));
             PetList.Add(new PetDog("Bowser"));
 
