@@ -23,9 +23,10 @@ namespace PetClassTest
                 if(pet.petType == "cat")
                 {
                     Console.WriteLine("Jon loves his best friend {0}", pet.name);
-
+                    Console.WriteLine("and {0}", ((PetCat)pet).furColor);
                 }
             }
+
 
             Console.WriteLine("Hello World");
             //.ReadLine();
